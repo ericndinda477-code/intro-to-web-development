@@ -4,21 +4,81 @@
 <head>
   <meta charset="UTF-8" />
   <title>Learn - Get Started Today</title>
+  <link rel="stylesheet" href="main.css">
   <meta name="description" content="Learn is a platform that offers free courses for everyone. Start learning today!" />
   <!-- CSS -->
-  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="main.css" />
 </head>
 
 <body>
   <!-- Navbar section -->
-
+<nav class="navbar">
+  <div class="navbar-logo">
+    <img src="../intro-to-web-development-main/images/logo.png" width="300" />
+  </div>
+  <ul class="navbar-items">
+    <li>About Me</li>
+    <li>Journey</li>
+    <li>Goals</li>
+  </ul>
+</nav>
   <!-- Hero section -->
 
+  <div class="hero">
+  <h1>
+    Hello! <br />
+    I'm Eric NDINDABAHIZI
+  </h1>
+  <p>A web developer</p>
+  <a href="mailto:ericndinda477@gmail.com">
+    <button>Contact Me</button>
+  </a>
+</div>
+
   <!-- Coding journey section -->
+<div id="coding-journey" class="journey">
+  <h2>Coding Journey</h2>
 
+  <div class="journey-list">
+    <div id="intro" class="journey-card">
+      <img
+        src="../intro-to-web-development-main/images/"
+        class="journey-image"
+        alt="Course Image"
+      />
+      <div>
+        <h3>Intro To Web Development</h3>
+        <p>
+          Learned how to build <br />Web Html Projects
+        </p>
+      </div>
+    </div>
+
+    <div id="react" class="journey-card">
+      <img src="../intro-to-web-development-main/images/react.png"
+      <div>
+        <h3>React Development</h3>
+        <p>
+          Learned how to build <br />Single Page Application
+        </p>
+      </div>
+    </div>
+
+    <div id="backend" class="journey-card">
+      <img src="../intro-to-web-development-main/images/backend.png"
+      <div>
+        <h3>Back-end Development</h3>
+        <p>
+          Learned how to build <br />Back-end services
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- Footer section -->
-
-  <script src="./script.js"></script>
+<footer>
+  <p>Website Made By Eric NDINDABAHIZI</p>
+</footer>
+  <script src="script.js"></script>
 </body>
-
 </html>
